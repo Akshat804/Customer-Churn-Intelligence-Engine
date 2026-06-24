@@ -1,31 +1,28 @@
-# Explainable Customer Churn Prediction using ML + Fuzzy Logic + CHUIM
+# 📊 Customer Churn Intelligence Engine
 
 ## 📌 Overview
-This project presents a hybrid framework for **customer churn prediction and explanation** using:
-- Machine Learning (XGBoost)
-- SHAP (feature importance)
-- Fuzzy Logic (interpretability)
-- Closed High Utility Itemset Mining (CHUD)
 
-The goal is not only to predict churn but also to **discover interpretable patterns** that explain why customers leave.
+A customer churn analytics framework designed to predict customer attrition and uncover the factors driving churn. The system combines machine learning, explainability techniques, fuzzy logic, and pattern mining to generate actionable customer retention insights.
 
----
+The framework uses XGBoost for churn prediction, SHAP for feature importance analysis, fuzzy transformations for interpretable feature representation, and CHUD (Closed High Utility Itemset Mining) to discover recurring churn patterns from customer behavior data.
 
-## 🎯 Objectives
-- Predict customer churn accurately
-- Extract meaningful and interpretable churn patterns
-- Combine ML with data mining for explainability
-- Reduce redundancy using closed itemset mining
+## 🛠️ Tech Stack
 
----
+* Python
+* XGBoost
+* SHAP
+* Pandas
+* NumPy
+* Scikit-learn
+* Fuzzy Logic
+* CHUD Algorithm
 
-## 📊 Dataset
-The dataset contains telecom customer information including:
-- Demographics (Gender, SeniorCitizen)
-- Services (InternetService, TechSupport)
-- Billing (MonthlyCharges, TotalCharges)
-- Behavior (Tenure, Contract)
+## 🔑 Concepts Implemented
 
-Target variable:
-- `Churn` → Yes / No
----
+* Customer Churn Prediction
+* Explainable AI (XAI)
+* Feature Importance Analysis
+* Fuzzy Data Transformation
+* Pattern Discovery
+* High Utility Itemset Mining
+* Customer Retention Analytics
